@@ -10,6 +10,6 @@ var tree = Parser.extend(jsx()).parse(doc, {
     sourceType: 'module',
     ecmaVersion: 2020
 })
-buildJsx(tree, {pragma: 'h', pragmaFrag: 'null'})
+buildJsx(tree, {pragma: 'hyperscript', pragmaFrag: 'null'})
 
 fs.writeFileSync('dist/templates.js', astring.generate(tree))

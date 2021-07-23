@@ -1,10 +1,9 @@
-const clickHandler = () => {
+const clickHandler = function() {
     alert('click')
 }
 
 window.template = function () {
-    return <MyComp>
-        {1 + 1}
-        <div className={'lala'} onClick={clickHandler} />
-    </MyComp>
+    return <div>
+        <div className={'lala'} onclick={clickHandler}>Click me</div>
+    </div>
 }

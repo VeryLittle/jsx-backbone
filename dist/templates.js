@@ -1,9 +1,10 @@
-const clickHandler = () => {
+const clickHandler = function () {
+  debugger;
   alert('click');
 };
 window.template = function () {
-  return h(MyComp, null, 1 + 1, h("div", {
+  return hyperscript("div", null, hyperscript("div", {
     className: 'lala',
-    onClick: clickHandler
-  }));
+    onclick: clickHandler
+  }, "Click me"));
 };
