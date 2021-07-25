@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    mode: 'development', // production
+    mode: 'production', // production development
     entry: './src/index.js',
     output: {
         filename: 'diffDom.js',
