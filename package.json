@@ -23,6 +23,9 @@
     "estree-util-build-jsx": "^2.0.0",
     "hyperscript": "^2.0.2",
     "incremental-dom": "^0.7.0",
-    "incremental-hyperscript": "^0.1.1"
+    "incremental-hyperscript": "^0.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "virtual-dom": "^2.1.1"
   }
 }

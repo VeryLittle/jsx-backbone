@@ -4,7 +4,7 @@ module.exports = {
     mode: 'production', // production development
     entry: './src/index.js',
     output: {
-        filename: 'diffDom.js',
+        filename: 'hyperscript.js',
         path: path.resolve(__dirname, 'dist'),
     },
     module: {
